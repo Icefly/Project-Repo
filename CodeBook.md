@@ -1,9 +1,9 @@
 The functions are listed below;
-•	SubjectTable – make a subject ID table
-•	ActivityTable – map activity descriptions to the activity codes written on the data
-•	ReadMainData – read test_x, test_y, train_x and train_y data, and combine with subject ID and activity descriptions
-•	ReadInertialData – read the data under /Inertial Signals folder, and combine with subject ID and activity descriptions
-•	MeanData – create  an independent tidy data set with the average of each variable for each activity and each subject
+*	SubjectTable – make a subject ID table
+*	AtivityTable – map activity descriptions to the activity codes written on the data
+*	ReadMainData – read test_x, test_y, train_x and train_y data, and combine with subject ID and activity descriptions
+*	ReadInertialData – read the data under /Inertial Signals folder, and combine with subject ID and activity descriptions
+*	MeanData – create  an independent tidy data set with the average of each variable for each activity and each subject
 
 The project program file “run_analysis.R” contains all commands and functions, including the commands that run functions in the file. Run the run_analysis.R can complete the project #1~#5 and exports the output to the main work directory.
 
